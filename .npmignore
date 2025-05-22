@@ -1,0 +1,28 @@
+# Source files (TypeScript etc.)
+src/
+*.ts
+*.tsx
+
+# Test files
+__tests__/
+*.test.ts
+*.test.tsx
+
+# Configuration files
+tsconfig.json
+jest.config.js
+
+# VSCode and system files
+.vscode/
+.DS_Store
+
+# node_modules (npm excludes automatically but no harm in writing)
+node_modules/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Files or directories created before build
+dist/

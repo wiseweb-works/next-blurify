@@ -1,0 +1,25 @@
+{
+  "name": "next-blurify",
+  "version": "0.1.0-beta.0",
+  "description": "A Next.js Image wrapper with automatic blurDataURL generation",
+  "main": "dist/DynamicImage.js",
+  "types": "dist/DynamicImage.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Abdullah Koyuncu",
+  "license": "MIT",
+  "dependencies": {
+    "plaiceholder": "^3.0.0"
+  },
+  "peerDependencies": {
+    "next": ">=15.0.0",
+    "react": ">=19.0.0",
+    "react-dom": ">=19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": ">=19.0.0",
+    "@types/react-dom": ">=19.0.0",
+    "typescript": ">=5.0.0"
+  }
+}
